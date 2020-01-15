@@ -1,0 +1,29 @@
+Commit
+$ git commit -am "ignore files"
+
+Create branch
+
+git branch dev = create branch dev
+git chekout dev = move in branch dev
+git branch = show branches
+git checkout -b add-bootstrap = create new branch add-bootstrap and move in it
+git push --set-upstream origin add-bootstarp
+$ git push origin dev
+
+Syncing branches
+git fetch origin test = Download objects and refs( in the example test) from another repository
+git checkout --track origin/test
+git checkout -b mybranch origin/abranch =will create mybranch and track origin/abranch
+git checkout --track origin/abranch = will only create 'abranch', not a branch with a different name.
+
+Graph the branches on the terminal
+
+git log --graph
+
+ingnore
+#ignore files
+/credential.js
+#ignore folder
+texts/
+#ignore txt files inside of folder
+some/*.txt
