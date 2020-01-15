@@ -9,6 +9,9 @@ git branch = show branches
 git checkout -b add-bootstrap = create new branch add-bootstrap and move in it
 git push --set-upstream origin add-bootstarp
 
+Syncing branches
+git checkout --track origin/test
+
 ingnore
 #ignore files
 /credential.js
