@@ -1,0 +1,6 @@
+#ignore files
+/credential.js
+#ignore folder
+texts/
+#ignore txt files inside of folder
+some/*.txt
