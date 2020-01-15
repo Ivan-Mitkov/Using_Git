@@ -15,6 +15,7 @@ git fetch origin test = Download objects and refs( in the example test) from ano
 git checkout --track origin/test
 git checkout -b mybranch origin/abranch =will create mybranch and track origin/abranch
 git checkout --track origin/abranch = will only create 'abranch', not a branch with a different name.
+git reset --hard commit_sha = revert merge
 
 Graph the branches on the terminal
 git log --graph
