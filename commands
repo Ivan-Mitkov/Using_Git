@@ -1,3 +1,6 @@
+Commit
+$ git commit -am "ignore files"
+
 Create branch
 
 git branch dev = create branch dev
@@ -11,3 +14,5 @@ ingnore
 /credential.js
 #ignore folder
 texts/
+#ignore txt files inside of folder
+some/*.txt
