@@ -1,0 +1,6 @@
+Create branch
+
+git branch dev = create branch dev
+git chekout dev = move in branch dev
+git branch = show branches
+git checkout -b add-bootstrap = create new branch add-bootstrap and move in it
