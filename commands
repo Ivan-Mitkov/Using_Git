@@ -17,8 +17,10 @@ git checkout -b mybranch origin/abranch =will create mybranch and track origin/a
 git checkout --track origin/abranch = will only create 'abranch', not a branch with a different name.
 
 Graph the branches on the terminal
-
 git log --graph
+
+Merge
+git merge <what> <where>
 
 ingnore
 #ignore files
